@@ -56,6 +56,14 @@ schedule2 = watch_start, 10, 10, ((load.start_verbose, (cat, (cfg.watch), "start
 # DHT nodes for bootstrapping
 dht.add_bootstrap = dht.transmissionbt.com:6881
 dht.add_bootstrap = dht.libtorrent.org:25401
+dht.add_bootstrap = tox1.mf-net.eu:33445
+dht.add_bootstrap = tox2.mf-net.eu:33445
+dht.add_bootstrap = tox.plastiras.org:33445
+dht.add_bootstrap = tox2.plastiras.org:33445
+dht.add_bootstrap = tox3.plastiras.org:33445
+dht.add_bootstrap = tox.abilinski.com:33445
+dht.add_bootstrap = tox.initramfs.io:33445
+dht.add_bootstrap = tox.kurnevsky.net:33445
 
 # UDP tracker support
 #trackers.use_udp.set = yes
